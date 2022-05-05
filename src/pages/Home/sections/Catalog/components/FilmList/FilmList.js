@@ -3,7 +3,7 @@ import FilmCard from 'components/FilmCard';
 
 const FilmList = ({ data = [] }) => {
 	return (
-		<div className='w-full max-w-desktop mx-auto grid grid-cols-5 gap-x-10 gap-y-16'>
+		<div className='flex flex-wrap justify-center mx-auto gap-x-10 gap-y-16'>
 			{data.map(item => (
 				<FilmCard filmData={item} key={`film--${item.id}`} />
 			))}

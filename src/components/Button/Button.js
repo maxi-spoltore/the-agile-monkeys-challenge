@@ -15,12 +15,16 @@ const Button = ({
 	styles = []
 }) => {
 	const backgroundTheme = variant === 'contained'
-		? ['border-none', `bg-${color}`]
-		: [`border-${borderColor}`, 'bg-transparent'];
+		? [`bg-${color}`]
+		: ['bg-transparent'];
+
+	const borderTheme = variant === 'contained'
+		? ['border', 'border-none']
+		: ['border', `border-${borderColor}`];
 
 	const colorTheme = variant === 'contained'
 		? ['text-white']
-		: [`text-${color}`]
+		: [`text-${color}`];
 
 	const btnClasses = classNames([
 		'flex',
@@ -28,17 +32,15 @@ const Button = ({
 		'items-center',
 		'px-4',
 		'py-1.5',
-		'border',
+		...borderTheme,
 		...backgroundTheme,
 		...colorTheme,
-		...(rounded ? ['rounded-[50px]'] : []),
+		...(rounded ? ['rounded-lg'] : []),
 		...styles
-
-	])
+	]);
 
 	return (
 			<button
-				type='button'
 				className={btnClasses}
 				onClick={onClick}
 			>

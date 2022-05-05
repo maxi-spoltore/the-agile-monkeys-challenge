@@ -34,9 +34,9 @@ const InfoCard = ({
 			<Button
 				text={btnText}
 				color='dark-charcoal'
+				borderColor='black'
 				variant='outlined'
-				rounded
-				styles={['w-[157px]', 'h-14']}
+				styles={['w-[157px]', 'h-14', 'rounded-[50px]']}
 			/>
 		</div>
 	)
@@ -45,7 +45,7 @@ const InfoCard = ({
 		<div className='grid grid-cols-2'>
 			<div className={contentClasses}>
 				<div className='w-full max-w-[551px] text-dark-charcoal'>
-					<h3 className='text-[32px] leading-10 font-bold mb-2'>{title}</h3>
+					<h3 className='text-[2rem] leading-10 font-bold mb-2'>{title}</h3>
 					<p className='text-xl leading-8'>{subtitle}</p>
 					{renderCTABtn()}
 				</div>
