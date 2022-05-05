@@ -25,3 +25,8 @@ The project is organized as follows:
 	All reusable components such as `Button`, `Icon`, `Image`, `Logo`, among others, are located in this folder.
 - **theme:**
 	All theme values, such as `palette`, are located in this folder.
+
+
+### Preview
+
+You can see the project live [here](https://theagilemonkeys-challenge-maxispoltore.netlify.app/).
