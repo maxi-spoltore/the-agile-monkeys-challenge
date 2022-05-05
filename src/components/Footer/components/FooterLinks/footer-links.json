@@ -1,0 +1,14 @@
+[
+	{
+		"text": "About us",
+		"href": "/about"
+	},
+	{
+		"text": "Blog",
+		"href": "/blog"
+	},
+	{
+		"text": "Contact us",
+		"href": "/contact"
+	}
+]
