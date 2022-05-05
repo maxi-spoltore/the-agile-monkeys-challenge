@@ -14,7 +14,7 @@ const Logo = ({ variant = 'main', href = '/' }) => {
 		}
 	}
 	return (
-		<a className='cursor-pointer' href={href}>
+		<a href={href}>
 			<img src={getSvg()} alt={`Logo ${variant}`} />
 		</a>
 	)

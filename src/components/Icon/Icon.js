@@ -9,6 +9,8 @@ const Icon = ({ name, color }) => {
 			return <Icons.Filter color={color} />
 		case 'order':
 			return <Icons.OrderBy color={color} />
+		case 'star':
+			return <Icons.Star color={color} />
 		default:
 			return null
 	}

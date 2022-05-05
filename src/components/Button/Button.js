@@ -14,8 +14,6 @@ const Button = ({
 	onClick = () => {},
 	styles = []
 }) => {
-	console.log({ variant, text });
-
 	const backgroundTheme = variant === 'contained'
 		? ['border-none', `bg-${color}`]
 		: [`border-${borderColor}`, 'bg-transparent'];
