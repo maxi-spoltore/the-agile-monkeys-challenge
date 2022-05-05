@@ -1,5 +1,5 @@
+import React from 'react';
 import classNames from 'classnames';
-import React from 'react'
 
 const Image = ({ height, width, imgUrl, altText = 'Image', containerStyles = [] }) => {
 	const imgHeight = height ? `h-[${height}px]` : 'h-full';

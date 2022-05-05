@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../../Logo';
-import SearchBar from '../../../SearchBar';
+import Logo from 'components/Logo';
+import SearchBar from 'components/SearchBar';
 
 const MainHeader = () => {
 	return (

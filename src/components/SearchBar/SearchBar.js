@@ -1,6 +1,6 @@
 import React from 'react';
-import Icon from '../Icon';
-import palette from '../../theme/palette';
+import Icon from 'components/Icon';
+import palette from 'theme/palette';
 
 const SearchBar = () => {
 	return (

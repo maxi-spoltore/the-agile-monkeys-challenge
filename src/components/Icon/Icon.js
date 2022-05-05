@@ -1,5 +1,5 @@
 import React from 'react';
-import Icons from '../Icons';
+import Icons from 'components/Icons';
 
 const Icon = ({ name, color }) => {
 	switch (name) {

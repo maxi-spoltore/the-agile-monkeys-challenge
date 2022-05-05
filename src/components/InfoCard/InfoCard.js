@@ -1,7 +1,7 @@
-import classNames from 'classnames';
 import React from 'react';
-import Image from '../Image';
-import Button from '../Button';
+import classNames from 'classnames';
+import Image from 'components/Image';
+import Button from 'components/Button';
 
 const InfoCard = ({
 	imgUrl,

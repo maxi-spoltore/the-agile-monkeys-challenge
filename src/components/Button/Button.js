@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import Icon from '../Icon';
+import Icon from 'components/Icon';
 import palette from 'theme/palette';
 
 const Button = ({
