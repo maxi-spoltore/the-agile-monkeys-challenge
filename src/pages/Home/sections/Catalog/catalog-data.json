@@ -1,0 +1,127 @@
+{
+	"heading": "Most popular films",
+	"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque, mauris ut volutpat dapibus, lectus mauris scelerisque nunc, quis dignissim enim erat eu est.",
+	"filmsData": [
+		{
+			"title": "Uncharted",
+			"releaseDate": "10 feb 2022",
+			"rating": 8,
+			"imgUrl": "images/uncharted.png"
+		},
+		{
+			"title": "The Batman",
+			"releaseDate": "1 mar 2022",
+			"rating": 8,
+			"imgUrl": "images/the-batman.png"
+		},
+		{
+			"title": "Spider-Man: No Way Home",
+			"releaseDate": "15 dic 2021",
+			"rating": 8.4,
+			"imgUrl": "images/spiderman-no-way-home.png"
+		},
+		{
+			"title": "Sonic 2: La Película",
+			"releaseDate": "30 mar 2022",
+			"rating": 6.5,
+			"imgUrl": "images/sonic-2-la-pelicula.png"
+		},
+		{
+			"title": "Red",
+			"releaseDate": "10 mar 2022",
+			"rating": 7,
+			"imgUrl": "images/red.png"
+		},
+		{
+			"title": "365 días: Aquel día",
+			"releaseDate": "10 feb 2022",
+			"rating": 8,
+			"imgUrl": "images/365-dias-aquel-dia.png"
+		},
+		{
+			"title": "El sastre de la mafia",
+			"releaseDate": "1 mar 2022",
+			"rating": 8,
+			"imgUrl": "images/el-sastre-de-la-mafia.png"
+		},
+		{
+			"title": "Moonfall",
+			"releaseDate": "15 dic 2021",
+			"rating": 8.4,
+			"imgUrl": "images/moonfall.png"
+		},
+		{
+			"title": "Yaksha: Ruthless Operations",
+			"releaseDate": "30 mar 2022",
+			"rating": 6.5,
+			"imgUrl": "images/yaksha-ruthless-operation.png"
+		},
+		{
+			"title": "Encanto",
+			"releaseDate": "10 mar 2022",
+			"rating": 7,
+			"imgUrl": "images/encanto.png"
+		},
+		{
+			"title": "Una cita con el pasado",
+			"releaseDate": "10 feb 2022",
+			"rating": 8,
+			"imgUrl": "images/una-cita-con-el-pasado.png"
+		},
+		{
+			"title": "Luz Negra",
+			"releaseDate": "1 mar 2022",
+			"rating": 8,
+			"imgUrl": "images/luz-negra.png"
+		},
+		{
+			"title": "El Proyecto Adam",
+			"releaseDate": "15 dic 2021",
+			"rating": 8.4,
+			"imgUrl": "images/el-proyecto-adam.png"
+		},
+		{
+			"title": "La Guerra de los mundos",
+			"releaseDate": "30 mar 2022",
+			"rating": 6.5,
+			"imgUrl": "images/la-guerra-de-los-mundos.png"
+		},
+		{
+			"title": "La Abuela",
+			"releaseDate": "10 mar 2022",
+			"rating": 7,
+			"imgUrl": "images/la-abuela.png"
+		},
+		{
+			"title": "Las aventuras de Pil",
+			"releaseDate": "10 feb 2022",
+			"rating": 8,
+			"imgUrl": "images/las-aventuras-de-pil.png"
+		},
+		{
+			"title": "Virus-32",
+			"releaseDate": "1 mar 2022",
+			"rating": 8,
+			"imgUrl": "images/virus-32.png"
+		},
+		{
+			"title": "Hotel Transilvania",
+			"releaseDate": "15 dic 2021",
+			"rating": 8.4,
+			"imgUrl": "images/hotel-transilvania.png"
+		},
+		{
+			"title": "En la tormenta",
+			"releaseDate": "30 mar 2022",
+			"rating": 6.5,
+			"imgUrl": "images/en-la-tormenta.png"
+		},
+		{
+			"title": "Cangrejo Negro",
+			"releaseDate": "10 mar 2022",
+			"rating": 7,
+			"imgUrl": "images/cangrejo-negro.png"
+		}
+	],
+	"itemsPerSection": 10
+}

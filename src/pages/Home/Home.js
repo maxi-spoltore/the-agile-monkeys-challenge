@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Catalog from './sections/Catalog';
 
 const Home = () => {
 	return (
-		<div>Home</div>
+		<main className='w-full max-w-desktop-lg mx-auto'>
+			<Catalog />
+		</main>
 	)
 }
 

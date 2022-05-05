@@ -1,5 +1,7 @@
-import palette from "./palette";
+import palette from './palette';
 
-export default {
+const theme = {
 	palette
-}
+};
+
+export default theme;
