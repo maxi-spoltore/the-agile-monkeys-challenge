@@ -34,9 +34,8 @@ const InfoCard = ({
 			<Button
 				text={btnText}
 				color='dark-charcoal'
-				borderColor='black'
 				variant='outlined'
-				styles={['w-[157px]', 'h-14', 'rounded-[50px]']}
+				styles={['w-[157px]', 'h-14', 'rounded-[50px]', 'border-black']}
 			/>
 		</div>
 	)
